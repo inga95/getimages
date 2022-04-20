@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
             AndroidNetworking.get("http://api-edu.gtl.ai/api/v1/imagesearch/bing")
                 .addQueryParameter(
                     "url",
-                    "https://w1.pngwing.com/pngs/370/239/png-transparent-chinese-beagle-chinese-crested-dog-puppy-maltese-dog-pet-sitting-bark-dog-walking.png"
+                    "https://e7.pngegg.com/pngimages/796/636/png-clipart-banana-banana.png"
                 )
                 .build()
                 .getAsObject(Liste::class.java, object : ParsedRequestListener<Liste> {
