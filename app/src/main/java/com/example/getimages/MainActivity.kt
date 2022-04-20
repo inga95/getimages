@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
     private val dataList: MutableList<ImagesApi> = mutableListOf()
     private lateinit var adapter: Adapter
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
